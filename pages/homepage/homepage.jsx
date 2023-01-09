@@ -1,10 +1,10 @@
 import React from 'react'
-
+import Image from "next/image"
 const Homepage = ({data}) => {
     console.log(data)
   return (
     <div>
-      <img src={data.avatar_url} alt="malay" width={"100px"}></img>
+      <Image src={data.avatar_url} alt="malay" width={100} height={50}/>
       <h2>{data.name}</h2>
       <h2>{data.login}</h2>
       <h4>{data.bio}</h4>

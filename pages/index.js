@@ -14,7 +14,7 @@ export default function Home({result}) {
         <Image src="https://avatars.githubusercontent.com/u/112858279?v=4"alt="malay" width={100} height={40}/>
       <h2>Malay Bajpai</h2>
       <h3>Malay-24</h3>
-      <h4>I'm a passionate Full Stack Web developer skilled in MERN stack , I love to learn new technology and implement it in my projects.</h4>
+      <h4>Im a passionate Full Stack Web developer skilled in MERN stack  I love to learn new technology and implement it in my projects</h4>
       <h4>Tech stack</h4>
       <p> HTML, CSS ,Javascript, React, Redux Nodejs</p>
       <button>Resume</button>
