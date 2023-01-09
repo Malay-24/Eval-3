@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from "next/link"
+import Image from "next/image"
 const Navbar = () => {
 
   return (
@@ -17,7 +18,7 @@ const Navbar = () => {
         </div>
     
      <div>
-     <img src="https://avatars.githubusercontent.com/u/112858279?v=4" alt="malay" width={"40px"} ></img>
+     <Image src="https://avatars.githubusercontent.com/u/112858279?v=4" alt="malay" width={40} height={40}/>
      </div>
 
     </div>

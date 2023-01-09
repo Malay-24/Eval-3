@@ -11,7 +11,7 @@ export default function Home({result}) {
     <div style={{display:"flex", gap:"10px" ,padding:"8px" ,justifyContent:"space-between",marginBottom:"10px"}}>
        <div style={{marginBottom:"10px",border:"2px solid red",width:"30%"}}>
         <div>
-        <img src="https://avatars.githubusercontent.com/u/112858279?v=4"alt="malay" width={"100px"}></img>
+        <Image src="https://avatars.githubusercontent.com/u/112858279?v=4"alt="malay" width={100} height={40}/>
       <h2>Malay Bajpai</h2>
       <h3>Malay-24</h3>
       <h4>I'm a passionate Full Stack Web developer skilled in MERN stack , I love to learn new technology and implement it in my projects.</h4>
